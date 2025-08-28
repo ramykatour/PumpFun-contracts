@@ -1,0 +1,21 @@
+{
+  "name": "pump-fun-evm-contracts",
+  "version": "1.0.0",
+  "description": "Pump Fun clone for EVM (BSC Testnet)",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:bsctestnet": "hardhat run scripts/deploy.js --network bsctestnet",
+    "verify:bsctestnet": "hardhat run scripts/verify.js --network bsctestnet",
+    "test": "hardhat test",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}

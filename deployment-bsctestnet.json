@@ -1,0 +1,8 @@
+{
+  "network": "bsctestnet",
+  "pumpFunFactory": "0xEBC9B1807B7ff1AFCFF55aeBfc55aa6c51F812Ac",
+  "pumpFunMain": "0xEfb4674640070C016fe45Dd355a83c8dC902b1af",
+  "feeRecipient": "0x559b6CEf109d8B66c416086A78D8a92bE16abBa8",
+  "deployer": "0x559b6CEf109d8B66c416086A78D8a92bE16abBa8",
+  "timestamp": "2025-08-28T04:01:36.756Z"
+}
